@@ -1,21 +1,22 @@
-Лабораторная работа №3. Отчет.
+## Лабораторная работа №3. Отчет.
 
-Задание на лабораторную работу:
+## Задание на лабораторную работу:
 
 1. Создать публичный репозиторий с названием lab03 и с лиценцией MIT 
 2. Ознакомиться со ссылками учебного материала 
 3. Выполнить инструкцию учебного материала 
 4. Составить отчет и отправить ссылку личным сообщением в Slack 
 
-Выполнение работы.
+## Выполнение работы.
 	
 В соответствии с последовательностью, определенной заданием на лабораторную работу, были выполнены следующие действия:
 1. Проведено ознакомление по приведенным ссылкам со следующими материалами по GitHub, Bitbucket, Gitlab, LearnGitBranching.
 2. Для успешного выполнения аздания создан новый пустой репозиторий lab03 с лицензией MIT, попутно создан файл .gitignore 
 3. Выполнена следующая последовательность команд:
 
-Tutorial
 
+## Tutorial
+```ShellSession
 $ export GITHUB_USERNAME=vaulex
 $ export GITHUB_EMAIL=krasauchek-s-iy@ya.ru
 $ alias edit=subl
@@ -79,9 +80,9 @@ $ git status
 $ git add .
 $ git commit -m"added sources"
 $ git push origin master
-
+```
 Результат выполнения команды git log:
-
+```ShellSession
 commit b946fd89b43ead40423c0bac3e40270b72f8a987
 Author: vaulex <krasauchek-s-iy@ya.ru>
 Date:   Wed Dec 13 18:14:51 2017 +0300
@@ -99,9 +100,9 @@ Author: vaulex <34100081+vaulex@users.noreply.github.com>
 Date:   Wed Dec 13 18:03:13 2017 +0300
 
     Initial commit
-
-Report
-
+```
+## Report
+```ShellSession
 $ cd ~/workspace/labs/
 $ export LAB_NUMBER=03
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER}.git tasks/lab${LAB_NUMBER}
@@ -110,14 +111,14 @@ $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
 $ cd reports/lab${LAB_NUMBER}
 $ edit REPORT.md
 $ gistup -m "lab${LAB_NUMBER}"
+```
 
-
-В результате выполнения блока Tutorial:
+## В результате выполнения блока Tutorial:
 
 осуществлено наполнение репозитория lab03 файлами, содержащими исходные коды с сохранение структуры каталогов проекта определены конфигурационные;
 осуществлено редактирование файла readme.md и коммит изменения в репозиторий.
 	
-В результате выполнения блока Report:
+## В результате выполнения блока Report:
 
 с git-репозитория https://github.com/tp-labs/lab03 сделана копия задания в локальный проект в папку tasks/lab03
 файл readme скопированный из локальной копии репозитория tp-lab перемещен в папку report локального проекта;
@@ -126,5 +127,5 @@ $ gistup -m "lab${LAB_NUMBER}"
 Составлен отчет о работе.
 
 	
-Выводы:
+## Выводы:
 В ходе проделанной работы проведена ознакомительная работа с работой git-репозитория, команд push/pull/commit  и связанный программ терминального окна Unix-среды.
